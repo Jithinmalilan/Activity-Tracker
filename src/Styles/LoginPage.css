@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.login-page{
+    margin-top:10rem;
+}
+.registration-page{
+    margin-top:8rem;
+}
+.login-page-image-container{
+    margin-top: 10rem;
+}
+.login-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0094da;
+    margin-top: 10rem;
+    user-select: none;
+}
+.login-title{
+    font-size: 1.5rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    margin-left: 1rem;
+    color: #0094da;
+    user-select: none;
+}
+.login-label{
+    font-size: 0.75rem;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+    user-select: none;
+}
+.login-input{
+    height: 2.5rem;
+    border: 1px solid #0094da;
+    border-radius: 5px;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+    outline: none;
+}
+.login-forgot{
+    font-size: 0.8rem;
+    margin-right: 6rem;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.login-forgot:hover{
+    text-decoration: underline;
+}
+
+.registration-page-image-container{
+    margin-top: 9rem;
+}
+.registration-text{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0094da;
+    user-select: none;
+}
+.registration-home-icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #0094da;
+}
+.registration-dropdown{
+    height: 2.5rem;
+    border: 1px solid #0094da;
+    border-radius: 5px;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    outline: none;
+}
+
+@media(max-width: 1400px){
+    .login-page{
+        margin-top: 0rem;
+    }
+    .login-forgot{
+        font-size: 0.8rem;
+        cursor: pointer;
+    }    
+    .registration-page{
+        margin-top:0rem;
+    }
+}
+
+@media(resolution: 125dpi){
+    
+}
+@media only screen and (min-resolution: 120dpi), 
+       only screen and (min-resolution: 1.25dppx) {
+
+        .login-page{
+            margin-top: 3rem;
+        }
+        .login-forgot{
+            font-size: 0.8rem;
+            cursor: pointer;
+        }    
+        .registration-page{
+            margin-top:3rem;
+        }
+}

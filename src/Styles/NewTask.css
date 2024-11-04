@@ -1,0 +1,151 @@
+.task-title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #0094da;
+    font-family: 'Kanit', sans-serif;
+}
+.label-custom{
+    font-size: 0.75rem;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+}
+.dropdown-container{
+    width: 17rem;
+    height: 2.3rem;
+    /* border-radius: 0.5rem; */
+    border: none;
+    font-size: 0.75rem;
+    background-color: transparent;
+}
+.dropdown-small{
+    width: 17rem;
+    height: 1.5rem;
+    font-size: 0.75rem;
+    padding-top: -2px;
+    padding-left: 0.75rem;
+    padding-right: 0.5rem;
+    background-color: transparent;
+    border: none;
+}
+.dropdown-container:focus{
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #0094da;
+}
+.dropdown-small:focus{
+    outline: none;
+}
+.input-text-field{
+    height: 2.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #0094da;
+    /* border-radius: 0.5rem; */
+    font-size: 0.75rem;
+    background-color: transparent;
+}
+.input-text-field-small{
+    height: 1.5rem;
+    font-size: 0.75rem;
+    border: none;
+    padding-right: 0.5rem;
+    background-color: transparent;
+}
+.input-text-field-small:focus{
+    outline: none;
+}
+.input-text-field:focus{
+    outline: none;
+}
+.input-text-field-remark{
+    height: 5rem;
+    border: 1px solid #0094da;
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.5rem;
+    word-wrap: break-word;
+    padding-top: 0.5rem;
+    background-color: transparent;
+}
+.input-text-field-remark:focus{
+    outline: none;
+}
+
+.task-side-head{
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #0094da;
+}
+.tick-icon{
+    font-size: 1.5rem;
+    color: #d3d3d3;
+    cursor: pointer;
+}
+.tick-icon:hover{
+    color: rgb(71, 196, 71);
+}
+.close-icon{
+    font-size: 1.5rem;
+    color: #d3d3d3;
+    cursor: pointer;
+}
+.close-icon:hover{
+    color: #e03f3f;
+}
+.edit-text-span{
+    font-size: 0.75rem;
+}
+.input-text-edit{
+    height: 1.5rem;
+    font-size: 0.75rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+}
+.input-text-edit:focus{
+    outline: none;
+}
+.dropdown-edit{
+    height: 1.2rem;
+    font-size: 0.75rem;
+    margin-bottom: 5px;
+    background-color: transparent;
+    border: none;
+}
+.dropdown-edit:focus{
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+}
+.input-text-field-remark-edit{
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    word-wrap: break-word;
+    background-color: transparent;
+    border: none;
+}
+.input-text-field-remark-edit:focus{
+    outline: none;
+}
+
+.btn-send-comment{
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: #0094da;
+}
+
+.qc-timeline-head{
+    margin-top: 7rem;
+}
+
+.task-span-text{
+    font-size: 0.75rem;
+}

@@ -1,0 +1,166 @@
+.task-card-grid{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.taskcard-container{
+    background-color: #ffffff;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 148, 218, 0.2), 0 3px 10px 0 rgba(0, 148, 218, 0.19);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.taskcard-container:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 148, 218, 0.2), 0 6px 20px 0 rgba(0, 148, 218, 0.19);
+}
+.edit-button-task{
+    color: #0094da;
+}
+.edit-button-task:hover{
+    color: #000000;
+}
+.task-card-title{
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.tag-activity-type{
+    height: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 0.55rem;
+    background-color: #55bae9;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.tag-activity-type:hover{
+    background-color: #ffffff;
+    border: 1px solid #55bae9;
+    color: #55bae9;
+}
+
+.tag-container{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 0.65rem;
+}
+.tag-container-normal:hover{
+    background-color: #ffffff;
+    border: 1px solid #55bae9;
+    color: #55bae9;
+}
+.tag-container-Todo{
+    background-color: #e6b54c;
+}
+.tag-container-Todo:hover{
+    background-color: #ffffff;
+    border: 1px solid #e6b54c;
+    color: #e6b54c;
+}
+.tag-container-OnHold{
+    background-color: #e03f3f;
+}
+.tag-container-OnHold:hover{
+    background-color: #ffffff;
+    border: 1px solid #e03f3f;
+    color: #e03f3f;
+}
+.tag-container-InProgress{
+    background-color: rgb(71, 196, 71);
+}
+.tag-container-InProgress:hover{
+    background-color: #ffffff;
+    border: 1px solid rgb(71, 196, 71);
+    color: rgb(71, 196, 71);
+}
+.tag-container-QCVerification{
+    background-color: #8d6819;
+}
+.tag-container-QCVerification:hover{
+    background-color: #ffffff;
+    border: 1px solid #8d6819;
+    color: #8d6819;
+}
+.tag-container-Completed{
+    background-color: #791543;
+}
+.tag-container-Completed:hover{
+    background-color: #ffffff;
+    border: 1px solid #791543;
+    color: #791543;
+}
+.taskcard-time{
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+.profile-image-card{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #0094da;
+    padding: 2px;
+}
+.img-alternative-card{
+    width: 35px;
+    height: 35px;
+    background-color: #0094da;
+    border-radius: 50%;
+    border: 1px solid #0094da;
+    padding: 2px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.input-text-field-comments-box{
+    border: 1px solid #0094da;
+    font-size: 0.8rem;
+    outline: none;
+    height: 4rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+.approve-button-approval-card{
+    width: 5rem;
+    height: 1.75rem;
+    background-color: rgb(71, 196, 71);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.approve-button-approval-card:hover{
+    background-color: #fff;
+    border: 1px solid rgb(71, 196, 71);
+    color: rgb(71, 196, 71);
+}
+.reject-button-approval-card{
+    width: 5rem;
+    height: 1.75rem;
+    background-color: red;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.reject-button-approval-card:hover{
+    background-color: #fff;
+    border: 1px solid red;
+    color: red;
+}
+
+@media(max-width: 1400px){
+    .task-card-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+}

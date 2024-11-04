@@ -1,0 +1,17 @@
+.priority-dropdown{
+    width: 13rem;
+    height: 1.2rem;
+    border: none;
+    font-size: 0.75rem;
+    background-color: transparent;
+    margin-left: -3px;
+}
+.priority-dropdown{
+    outline: none;
+}
+
+.sbmt-button{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #0094da;
+}
